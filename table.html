@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <head>
     <title>Table</title>
+    <style>
+        #t2 {
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <table border="1" width="100%">
@@ -49,6 +54,70 @@
         </tr>
     </tbody>
     </table>
-    
+    <hr>
+    <table  id ="t2" border="1" >
+        <caption>Table Caption</caption>
+        <thead>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Points</th>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td rowspan="4">Month</td>
+                <td>Name 1</td>
+                <td>100</td>
+            </tr>
+            <tr align="center">
+                <td >Name 2</td>
+                <td >200</td>
+            </tr>
+            <tr align="center">
+                <td >Name 3</td>
+                <td >300</td>
+            </tr>
+            <tr align="center">
+                <td >Name 4</td>
+                <td >400</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table id="t3" border="1" >
+        <thead>
+            <th>Year</th>
+            <th>Group</th>
+            <th>Language</th>
+            <th>Done</th>
+            <th>Passed</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">2022</td>
+                <td rowspan="2">Group</td>
+                <td>HTML</td>
+                <td colspan="2">Yes</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td colspan="2">Yes</td>
+            </tr>
+            <tr>
+                <td rowspan="3">One</td>
+                <td>JS</td>
+                <td >Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td colspan="2">Yes</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td >Yes</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
