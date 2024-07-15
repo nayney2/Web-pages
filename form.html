@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form action="test.py" method="post">
+        <div>
+            <label>Username</label><br>
+            <input type="text" required name="us">
+        </div> <hr>
+        <div>
+            <input type="text" hidden>
+        </div>
+        <div>
+            <label>Email</label><br>
+            <input type="email" placeholder="test@outlook.fr" name="em" required>
+        </div> <hr>
+        <div>
+            <label>Mobile</label> <br>
+            <input type="mobile" placeholder="+20100(234) 123" name="em">
+        </div> <hr>
+        <div>
+            <label>Subject</label> <br>
+            <input type="text"  name="em">
+        </div> <hr>
+        <div>
+            <label>Password</label><br>
+            <input type="password" required name="ps">
+        </div><hr>
+        <div>
+            <label >Range</label>
+            <input type="range" min="100" max="500" step="50" value="400"> 
+        </div> <br>
+        <input type="submit" value="Send data"> 
+        <input type="reset" value="Empty Form" >
+        
+    </form>
+     <hr>
+     <form>
+        <div>
+        <label for="1">Username</label>
+        <input type="text" name="un" id="1" autofocus minlength="5" maxlength="20" required> <br>
+    </div>
+    <div>
+        <input type="text" name="tk" id="2" hidden value="b92f1fc2fce391ad7af633723afd3055"> 
+    </div>
+    <div>
+        <label for="3">Email</label>
+        <input type="email" name="em" id="3" value="o@o.com" readonly> 
+    </div>
+   
+    <div>
+        <br>
+        <label >Skills </label>
+        <input type="checkbox"  value="Problem Solving" id="4" checked> <br>
+        <label for="4">Problem Solving</label>        <br>
+        <input type="checkbox" value="Logical Thinking" id="5" >
+        <label for="5">Logical Thinking</label>        <br>
+        <input type="checkbox" value="Advanced Search" id="6" >
+        <label for="6">Advanced Search</label>        <br>
+        <input type="checkbox" value="Analysis" id="7" >
+        <label for="7">Analysis</label>        <br>
+        <input type="checkbox" value="Planning" id="8" >
+        <label for="8">Planning</label>        
+    </div>
+    <div>
+        <br>
+        <label >Jobs </label> <br>
+        <input type="radio" value="Front-End Developer" id="9" checked>
+        <label for="9">Front-End Developer</label>        <br>
+        <input type="radio" value="Back-End Developer" id="10">
+        <label for="10">Back-End Developer</label>        <br>
+        <input type="radio" value="Business Analyst" id="11">
+        <label for="11">Business Analyst</label>        <br>
+        <input type="radio" value="Project Manager" id="12">
+        <label for="12">Project Manager</label>        <br>
+        <input type="radio" value="Scrum Master" id="13">
+        <label for="13">Scrum Master</label>        
+    </div>
+    <div>
+        <label >Choose Book: </label>
+        <select>
+            <optgroup label="PHP">
+                <option value="v5.0" label="v5.0"></option>
+                <option value="v6.0" label="v6.0"></option>
+                <option value="v7.0" label="v7.0"></option>
+
+            </optgroup>
+            <optgroup label="Python">
+                <option value="v2.0" label="v2.0"></option>
+                <option value="v3.0" label="v3.0"></option>
+                <option value="v4.0" label="v4.0"></option>
+            </optgroup>
+        </select>
+        <hr>
+        <label for="14" >Brief: </label> <br>
+        <textarea name="brief" id="14" placeholder="Write Here Why You Want To Learn Programming" rows="10" cols="40"></textarea>
+    </div>
+    <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+     </form>
+     <hr>
+    <div>
+        <label for="">Search </label> 
+        <br><br> 
+        <input type="search" placeholder="Enter A Search Word" autofocus> <br> <br>
+        <label for="">File </label> <br> <br>
+        <input type="file"> <br><br>
+        <label for="">URL </label>  <br><br>
+        <input type="URL" required>   <br><br>
+        <label for="">Date</label> <br><br>
+        <input type="date" > <br><br>
+        <label for="">Month</label> <br><br>
+        <input type="month" >
+    </div>
+    <div>
+        <br>
+        <input type="submit" value="Save">
+        <input type="reset" value="Empty">
+    </div>
+    <hr>
+    <code><pre>Hello Line One
+        Hello Line Two
+        Hello Line Three
+              Hello Line Four</pre></code>
+    <hr>
+    <iframe src="https://elzero.org/" frameborder="0" height="400px" width="100%"></iframe>
+</body>
+</html>
