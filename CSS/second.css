@@ -1,0 +1,51 @@
+  
+.shape-1,
+  .shape-2,
+   .shape-3{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background-color:  #eee ;
+} 
+
+
+ .element_element-1,
+ .element_element-2,
+ .element_element-3{
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    outline: 10px #eee solid ;
+
+}
+
+    .element_element-1{
+        background-color: #eee;
+        border-left: 5px rgb(240, 7, 97) solid;
+
+    }
+    .element_element-2{
+        visibility: hidden;
+    }
+    .element_element-3{
+        background-color: #eee;
+        border-left: 5px rgb(15, 202, 168) solid;
+
+    }
+
+.shape-1{
+    border: 5px red solid;
+    outline : 5px black solid;
+}
+.shape-2{
+    border-width: 5px ;
+    border-style: solid;
+    border-color: blue green;
+    outline : 5px black solid;
+}
+.shape-3{
+    border-width: 5px ;
+    border-style :dashed;
+    border-color: red green blue yellow;
+    outline : 5px black solid;
+}
