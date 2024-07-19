@@ -1,0 +1,113 @@
+
+div{
+   width: 500px;
+   padding : 20px;
+   color: white;
+}
+
+.assign-1-shape-1{
+    background-color: blueviolet;  
+   /* background-color: rgb(138, 43, 226) 
+   background-color: #8A2BE2; 
+   background-color: hsl(271, 76%, 50%); */
+
+}
+.assign-1-shape-2{
+   background-color: rgb(138, 43, 226, 50%);
+}
+.assign-1-shape-3{
+   background-color: rgb(138, 43, 226, 10%);
+}
+.assign-2-shape-1,.assign-2-shape-2,.assign-2-shape-3,.assign-2-shape-4{
+   width: 400px;
+   height: 400px;
+   color: azure;
+}
+.assign-2-shape-1{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: no-repeat;
+   background-color:#eee 
+
+}
+.assign-2-shape-2{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: repeat-y;
+   background-color:#eee 
+
+}
+.assign-2-shape-3{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: repeat-x;
+   background-color:#eee 
+
+}
+.assign-2-shape-4{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: repeat;
+   background-color:#eee 
+
+}
+.assign-3-shape-1,.assign-3-shape-2,.assign-3-shape-3,.assign-3-shape-4{
+   width: 400px;
+   height: 400px;
+
+}
+.assign-3-shape-1{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: no-repeat;
+   background-color:#eee 
+}
+.assign-3-shape-2{   
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: repeat-y;
+   background-position: right;
+   background-color:#eee 
+
+   /* text-align: right; */
+   
+}
+.assign-3-shape-3{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: repeat-x;
+   background-position: bottom;
+   background-color:#eee 
+
+   /* display: table-cell;
+  vertical-align: bottom; */
+}
+.assign-3-shape-4{
+   background-image: url(css-assignment-5-8.png);
+   background-repeat: repeat;
+   background-color:#eee 
+}
+.assign-4-shape-1,.assign-4-shape-2,.assign-4-shape-3,.assign-4-shape-4{
+   width: 400px;
+   height: 400px;
+}
+.assign-4-shape-1{
+   background-image: url(css-assignment-5-8.png);
+   background-color:#eee ;
+   background-repeat: no-repeat;
+   background-size: 80%;
+}
+.assign-4-shape-2{
+   background-image: url(css-assignment-5-8.png);
+   background-color:#eee ;
+   background-repeat: repeat-y;
+   background-position: bottom right;
+   background-size: 80%;
+}
+.assign-4-shape-3{
+   background-image: url(css-assignment-5-8.png);
+   background-color:#eee ;
+   background-repeat: repeat-x;
+   background-position: bottom left;
+   background-size: 80%;
+}
+.assign-4-shape-4{
+   background-image: url(css-assignment-5-8.png);
+   background-position: right bottom;
+   background-color:#eee ;
+   background-repeat: no-repeat;
+   background-size: 50%;
+}
