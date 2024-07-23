@@ -21,30 +21,26 @@ div{
 .assign-2-shape-1,.assign-2-shape-2,.assign-2-shape-3,.assign-2-shape-4{
    width: 400px;
    height: 400px;
-   color: azure;
+   color: #eee;
+   background-image: url(css-assignment-5-8.png);
+   box-sizing : border-box ;
+   padding: 20px ;
+
 }
 .assign-2-shape-1{
-   background-image: url(css-assignment-5-8.png);
    background-repeat: no-repeat;
-   background-color:#eee 
 
 }
 .assign-2-shape-2{
-   background-image: url(css-assignment-5-8.png);
    background-repeat: repeat-y;
-   background-color:#eee 
 
 }
 .assign-2-shape-3{
-   background-image: url(css-assignment-5-8.png);
    background-repeat: repeat-x;
-   background-color:#eee 
 
 }
 .assign-2-shape-4{
-   background-image: url(css-assignment-5-8.png);
    background-repeat: repeat;
-   background-color:#eee 
 
 }
 .assign-3-shape-1,.assign-3-shape-2,.assign-3-shape-3,.assign-3-shape-4{
