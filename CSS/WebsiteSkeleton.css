@@ -1,0 +1,30 @@
+*{
+    margin : 0px}
+body{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 10% 1fr 5%;
+
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+li{ 
+    display: inline-flex;
+    margin: 10px;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
