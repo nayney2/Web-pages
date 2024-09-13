@@ -1,1 +1,1 @@
-👋 Welcome to my GitHub! I’m a web enthusiast dedicated to crafting captivating online experiences through HTML and CSS. Join me on this journey as I explore creativity and innovation in web design. Dive into my projects, and let’s build something amazing together!
+👋 Welcome to my GitHub! I’m a web enthusiast dedicated to crafting captivating online experiences through HTML, CSS and JavaScript. Join me on this journey as I explore creativity and innovation in web design. Dive into my projects, and let’s build something amazing together!
